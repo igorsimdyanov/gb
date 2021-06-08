@@ -1,0 +1,12 @@
+desc 'Задача по умолчанию'
+task default: 'test:load'
+
+namespace :test do
+  desc 'Вывод фразы Hello, world!'
+  task :load do
+    puts 'Hello, world!'
+  end
+end
+# task :load do
+#   puts 'Hello, Ruby!'
+# end
