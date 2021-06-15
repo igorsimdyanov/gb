@@ -1,0 +1,9 @@
+AllCops:
+  TargetRubyVersion: 3.0
+  Exclude:
+    - 'tmp/**/*'
+Style/AsciiComments:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+  
