@@ -1,0 +1,8 @@
+Invokes the given block passing in successive elements from self, deleting elements for which the block returns a false value.
+select! → Enumerator
+#filter! is an alias for #select!.
+See also #keep_if.
+select! {|item| block } → ary or nil click to toggle source
+If changes were made, it will return self, otherwise it returns nil.
+The array may not be changed instantly every time the block is called.
+If no block is given, an Enumerator is returned instead.
